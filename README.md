@@ -5,8 +5,9 @@ A planned home for reusable water-rendering work from
 a personal keep and a shared world worth returning to.
 
 **Status: repository placeholder.** There is no engine implementation, installable
-package, demo or test suite here yet. The repository currently provides this
-overview and an [Apache 2.0 license](LICENSE).
+package, demo or test suite here yet. Start with this overview and the
+[contributor guide](AGENTS.md). Project-authored software is covered by the
+[Apache 2.0 license](LICENSE).
 
 ## Current water work
 
