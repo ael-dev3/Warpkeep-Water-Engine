@@ -12,14 +12,14 @@ package, demo or test suite here yet. Start with this overview and the
 ## Current water work
 
 Warpkeep's water is currently implemented inside the game. The
-[0.4 development renderer](https://github.com/ael-dev3/Warpkeep/blob/codex/prepared-keep-bindings-fix/src/greater-realm/createGreaterRealmSceneRuntime.ts)
+[0.4 development renderer](https://github.com/ael-dev3/Warpkeep/blob/main/src/greater-realm/createGreaterRealmSceneRuntime.ts)
 builds water geometry from public world cells and uses a standard material with
 restrained color and opacity animation. Its quality and performance must be
 judged in the actual Greater Realm scene. It does not import a package from
 this repository.
 
 The preserved Genesis 001 renderer has a
-[separate water layer](https://github.com/ael-dev3/Warpkeep/blob/codex/prepared-keep-bindings-fix/src/components/realm/realmWaterLayer.ts).
+[separate water layer](https://github.com/ael-dev3/Warpkeep/blob/main/src/components/realm/realmWaterLayer.ts).
 That older implementation and the current 0.4 path have different callers;
 neither establishes that a standalone engine has been extracted or released.
 
