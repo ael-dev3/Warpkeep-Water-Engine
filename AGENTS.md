@@ -24,7 +24,18 @@ exists, document its actual install/build/test commands and exercise a real game
 integration, resource cleanup and fallback behavior. Do not invent commands,
 publish an empty package, or describe an unmeasured prototype as production-ready.
 
-Review and stage exact paths, preserve unrelated changes, scan the outgoing
-history for secrets, and publish without force-overwriting remote work. Update
-the README when the repository gains a real implementation or release. Source
-publication and a working Warpkeep deployment are separate outcomes.
+Commit and push each completed development change after proportionate review and
+verification. Before handing off, publish all durable work authored for the task,
+including unfinished source with its actual limitations. Do not wait for an
+engine release or game deployment to back up development.
+
+Fetch the verified owning remote and resolve the current authorized branch.
+Stage exact reviewed paths, scan the entire outgoing commit range for secrets,
+push the full reviewed SHA without force, and verify the live remote ref.
+Preserve unrelated edits, private data and active generated families; exclude
+caches, dependencies and disposable builds. If publication fails, retain the
+work, record the exact failure, and retry when it clears. Do not recreate a
+merged or deleted branch or redirect unfinished work into main automatically.
+
+Update the README when the repository gains a real implementation or release.
+Source publication and a working Warpkeep deployment are separate outcomes.
