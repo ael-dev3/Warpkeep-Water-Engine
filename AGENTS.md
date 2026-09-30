@@ -17,7 +17,7 @@ neither a screenshot nor a draw-call count establishes mobile performance.
 
 Preserve source attribution and inspect the terms of any imported code or media.
 The [Apache 2.0 software license](LICENSE) does not relicense material from the
-mixed-license [asset archive](https://github.com/ael-dev3/Warpkeep-Assets).
+mixed-license creative asset archive maintained in the private game workspace.
 
 For documentation, verify linked source paths and claims. Once implementation
 exists, document its actual install/build/test commands and exercise a real game
